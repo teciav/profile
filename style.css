@@ -1,14 +1,19 @@
 body {
-  background-color: #F7F9FC;
+  background-color: #C6C5AA;
   font-family: "Open Sans", sans-serif;
 }
 
-h1, p {
+p {
   color: #575F7D;
+  margin: 20px;
+}
+
+h1 {
+  color: #A33B20;
 }
 
 h2 {
-  color: #7ECE90;
+  color: #A33B20;
   font-weight: 400;
 }
 
@@ -28,7 +33,6 @@ a:hover {
 }
 
 .card {
-  width: 650px;
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(0,0,0,.1);
@@ -43,8 +47,8 @@ a:hover {
 
 .btn {
   width: 20px;
-  margin: 5px;
-  background-color: #6B72E1;
+  margin: 10px;
+  background-color: #A47963;
   color: white;
   border-radius: 4px;
   padding: 10px;
@@ -54,6 +58,7 @@ a:hover {
 
 .btn:hover {
   background-color: black;
+  color: white;
 }
 
 .list-inline > li {
@@ -65,4 +70,22 @@ a:hover {
   list-style: none;
   padding-left: 0px;
   font-size: 50px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
 }
